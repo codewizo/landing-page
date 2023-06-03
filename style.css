@@ -1,0 +1,38 @@
+
+*{
+    font-family: sans-serif;
+}
+#home{
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    color: white;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+.nav-tabs{
+    padding-top: 10px;
+}
+.nav-tabs nav ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 22px;
+    padding: 22px;
+}
+#content{
+    display: flex;
+    flex: auto;
+    padding-top: 75px;
+}
+#content .subtext{
+    width: 550px;
+    padding-left: 200px;
+}
+.imgplaceholder{
+    width: 70%;
+    min-width: 40%;
+}
