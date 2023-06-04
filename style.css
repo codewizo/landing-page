@@ -1,6 +1,6 @@
-
 *{
     font-family: sans-serif;
+    margin: 0px;
 }
 #home{
     background-color: #1F2937;
@@ -8,9 +8,10 @@
     color: white;
 }
 #header{
+    padding-top: 10px;
     display: flex;
     justify-content: center;
-    gap: 400px;
+    gap: 450px;
 }
 .nav-tabs{
     padding-top: 10px;
@@ -18,14 +19,15 @@
 .nav-tabs nav ul li{
     list-style-type: none;
     display: inline;
-    font-size: 22px;
-    font-weight: 500;
-    margin-top: 22px;
-    padding: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+    padding: 24px;
 }
 #content{
     display: flex;
-    flex: auto;
+    justify-content: center;
+    gap: 8px;
     padding-top: 75px;
 }
 #content .subtext{
@@ -33,6 +35,106 @@
     padding-left: 200px;
 }
 .imgplaceholder{
-    width: 70%;
+    width: 60%;
     min-width: 40%;
+}
+.subtext h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.subtext p{
+    font-size: 18px;
+}
+.signup-btn{
+    position: absolute;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+#info-page{
+    background-color: white;
+    margin: 30px 0px;
+    margin-bottom: 100px;
+}
+#info-page h1{
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+#information{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: center;
+    gap: 10px;
+}
+#information .item{
+    width: 200px;
+}
+.item img{
+    width: 85%;
+    border-radius: 10px;
+}
+#quote-page{
+    background-color: #E5E7EB;
+    color: black;
+    display: flex;
+    
+}
+.quote{
+    width: 60%;
+    margin: auto;
+    padding: 100px 0px;
+}
+.quote p{
+    font-size: 26px;
+    font-style: italic;
+}
+.quote h4{
+    text-align: right;
+}
+#join-page{
+    background-color: white;
+    margin: 80px;
+}
+#join-page .container{
+    background-color: #3882F6;
+    width: 60%;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-right: 150px;
+}
+.container .call{
+    width: 500px;
+    margin-left: 20px;
+}
+.join-btn{
+    position: absolute;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: auto;
+    padding: 8px;
+    border: 2px solid white;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+#footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 60px;
 }
